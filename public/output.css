@@ -586,10 +586,6 @@ video {
   left: 0px;
 }
 
-.left-1\/2{
-  left: 50%;
-}
-
 .right-0{
   right: 0px;
 }
@@ -604,10 +600,6 @@ video {
 
 .top-1{
   top: 0.25rem;
-}
-
-.top-1\/2{
-  top: 50%;
 }
 
 .top-full{
@@ -639,6 +631,11 @@ video {
   margin-right: 2.5rem;
 }
 
+.mx-2{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-3{
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -659,11 +656,6 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mx-2{
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
 .mb-10{
   margin-bottom: 2.5rem;
 }
@@ -680,12 +672,20 @@ video {
   margin-bottom: 1.75rem;
 }
 
+.ml-2{
+  margin-left: 0.5rem;
+}
+
 .mr-1{
   margin-right: 0.25rem;
 }
 
 .mt-1{
   margin-top: 0.25rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
 }
 
 .mt-2{
@@ -696,20 +696,12 @@ video {
   margin-top: 0.75rem;
 }
 
-.mt-6{
-  margin-top: 1.5rem;
-}
-
-.ml-2{
-  margin-left: 0.5rem;
-}
-
-.mt-10{
-  margin-top: 2.5rem;
-}
-
 .mt-5{
   margin-top: 1.25rem;
+}
+
+.mt-6{
+  margin-top: 1.5rem;
 }
 
 .inline-block{
@@ -760,10 +752,6 @@ video {
   max-height: 24rem;
 }
 
-.min-h-screen{
-  min-height: 100vh;
-}
-
 .w-10\/12{
   width: 83.333333%;
 }
@@ -786,6 +774,10 @@ video {
 
 .w-28{
   width: 7rem;
+}
+
+.w-4{
+  width: 1rem;
 }
 
 .w-5{
@@ -829,26 +821,12 @@ video {
   width: max-content;
 }
 
-.w-4{
-  width: 1rem;
-}
-
 .max-w-screen-md{
   max-width: 768px;
 }
 
 .max-w-sm{
   max-width: 24rem;
-}
-
-.-translate-x-1\/2{
-  --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-y-1\/2{
-  --tw-translate-y: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .translate-x-0{
@@ -970,10 +948,6 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded-2xl{
-  border-radius: 1rem;
-}
-
 .rounded-b-lg{
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
@@ -983,16 +957,16 @@ video {
   border-width: 2px;
 }
 
+.border-b{
+  border-bottom-width: 1px;
+}
+
 .border-b-2{
   border-bottom-width: 2px;
 }
 
 .border-t-2{
   border-top-width: 2px;
-}
-
-.border-b{
-  border-bottom-width: 1px;
 }
 
 .border-gray-400{
@@ -1136,6 +1110,10 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.pb-4{
+  padding-bottom: 1rem;
+}
+
 .pb-6{
   padding-bottom: 1.5rem;
 }
@@ -1146,10 +1124,6 @@ video {
 
 .pt-5{
   padding-top: 1.25rem;
-}
-
-.pb-4{
-  padding-bottom: 1rem;
 }
 
 .text-center{
@@ -1415,10 +1389,6 @@ b
   outline-offset: 2px;
 }
 
-.group:hover .group-hover\:opacity-100{
-  opacity: 1;
-}
-
 @media (min-width: 640px){
   .sm\:right-4{
     right: 1rem;
@@ -1428,18 +1398,9 @@ b
     margin: 0.75rem;
   }
 
-  .sm\:m-4{
-    margin: 1rem;
-  }
-
   .sm\:mx-10{
     margin-left: 2.5rem;
     margin-right: 2.5rem;
-  }
-
-  .sm\:mx-6{
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
   }
 
   .sm\:hidden{
@@ -1524,10 +1485,6 @@ b
 
   .md\:mt-8{
     margin-top: 2rem;
-  }
-
-  .md\:block{
-    display: block;
   }
 
   .md\:inline-block{
@@ -1628,14 +1585,6 @@ b
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-
-  .group:hover .md\:group-hover\:opacity-30{
-    opacity: 0.3;
-  }
-
-  .group:hover .md\:group-hover\:opacity-50{
-    opacity: 0.5;
-  }
 }
 
 @media (min-width: 1024px){
@@ -1655,10 +1604,6 @@ b
     top: 50%;
   }
 
-  .lg\:m-6{
-    margin: 1.5rem;
-  }
-
   .lg\:mx-6{
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -1670,10 +1615,6 @@ b
 
   .lg\:block{
     display: block;
-  }
-
-  .lg\:hidden{
-    display: none;
   }
 
   .lg\:h-96{
@@ -1734,16 +1675,6 @@ b
     line-height: 1;
   }
 
-  .lg\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .lg\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .lg\:text-primary-black{
     --tw-text-opacity: 1;
     color: rgb(33 37 41 / var(--tw-text-opacity));
@@ -1784,20 +1715,6 @@ b
     margin-right: 8rem;
   }
 
-  .xl\:mx-40{
-    margin-left: 10rem;
-    margin-right: 10rem;
-  }
-
-  .xl\:mx-28{
-    margin-left: 7rem;
-    margin-right: 7rem;
-  }
-
-  .xl\:h-lg-card-height{
-    height: 34rem;
-  }
-
   .xl\:w-10\/12{
     width: 83.333333%;
   }
@@ -1808,10 +1725,6 @@ b
 
   .xl\:w-3\/4{
     width: 75%;
-  }
-
-  .xl\:w-lg-card-width{
-    width: 35rem;
   }
 
   .xl\:max-w-7xl{
@@ -1829,16 +1742,6 @@ b
 
   .xl\:text-9xl{
     font-size: 8rem;
-    line-height: 1;
-  }
-
-  .xl\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .xl\:text-7xl{
-    font-size: 4.5rem;
     line-height: 1;
   }
 }
