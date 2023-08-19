@@ -37,7 +37,7 @@ module.exports = {
       },
   },
   fontFamily: {
-    body:['Lora']
+    body:['Playfair']
 },
   plugins: [],
 }
