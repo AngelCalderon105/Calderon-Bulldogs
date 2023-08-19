@@ -42,6 +42,7 @@
                <li class = "p-3">
                    <a href="#gallery">Gallery</a>
                </li>
+               
            </ul>
            <a href="" class = ""> 
            <h2 class ="p-3 hidden md:inline-block">Calderon Bulldogs</h2> 
@@ -52,8 +53,12 @@
                <a href="#ap">Available Puppies</a>
                </li>
                <li class = "p-3">
-                   <a href="#ss">Stud Service</a>
+                   <a href="#studPage">Stud Service</a>
                </li>
+               <li class = "p-3 md:hidden">
+                <a href="#footer">Contact Us</a>
+                </li>
+                
            </ul>
        </nav>
    </header> 
@@ -170,7 +175,7 @@
                 <!-- Responsive Card with Overlay Text -->
                 <div class="relative  shadow-lg shadow-black rounded-xl overflow-hidden w-72 h-64 sm:w-80 sm:h-72 lg:w-m-card-width lg:h-96  ">
                     <!-- Image as Background -->
-                    <img src="img/card.webp" alt="Image" class="absolute w-full h-full object-cover">
+                    <img src="img/Gallery/gallery4.webp" alt="Image" class="absolute w-full h-full object-cover">
                     <div class="absolute inset-0 bg-black opacity-0 lg:group-hover:opacity-50 transition duration-300 "></div>
                     <!-- Overlay Content -->
                     <div class="absolute top-0 right-0 m-2 sm:m-3  bg-white rounded-full  lg:group-hover:opacity-30 transition duration-300">
@@ -220,7 +225,7 @@
             <!-- Responsive Card with Overlay Text -->
             <div class="relative  shadow-lg shadow-black rounded-xl overflow-hidden w-72 h-64 sm:w-80 sm:h-72 lg:w-m-card-width lg:h-96  ">
                 <!-- Image as Background -->
-                <img src="img/card.webp" alt="Image" class="absolute w-full h-full object-cover">
+                <img src="img/Gallery/gallery12.webp" alt="Image" class="absolute w-full h-full object-cover transform scale-x--1">
                 <div class="absolute inset-0 bg-black opacity-0 lg:group-hover:opacity-50 transition duration-300 "></div>
                 <!-- Overlay Content -->
                 <div class="absolute top-0 right-0 m-2 sm:m-3  bg-white rounded-full  lg:group-hover:opacity-30 transition duration-300">
@@ -269,7 +274,7 @@
             <!-- Responsive Card with Overlay Text -->
             <div class="relative  shadow-lg shadow-black rounded-xl overflow-hidden w-72 h-64 sm:w-80 sm:h-72 lg:w-m-card-width lg:h-96  ">
                 <!-- Image as Background -->
-                <img src="img/card.webp" alt="Image" class="absolute w-full h-full object-cover">
+                <img src="img/Gallery/gallery5.webp" alt="Image" class="absolute w-full h-full object-cover">
                 <div class="absolute inset-0 bg-black opacity-0 lg:group-hover:opacity-50 transition duration-300 "></div>
                 <!-- Overlay Content -->
                 <div class="absolute top-0 right-0 m-2 sm:m-3  bg-white rounded-full  lg:group-hover:opacity-30 transition duration-300">
@@ -318,7 +323,7 @@
             <!-- Responsive Card with Overlay Text -->
             <div class="relative  shadow-lg shadow-black rounded-xl overflow-hidden w-72 h-64 sm:w-80 sm:h-72 lg:w-m-card-width lg:h-96  ">
                 <!-- Image as Background -->
-                <img src="img/card.webp" alt="Image" class="absolute w-full h-full object-cover">
+                <img src="img/Gallery/gallery9.webp" alt="Image" class="absolute w-full h-full object-cover">
                 <div class="absolute inset-0 bg-black opacity-0 lg:group-hover:opacity-50 transition duration-300 "></div>
                 <!-- Overlay Content -->
                 <div class="absolute top-0 right-0 m-2 sm:m-3  bg-white rounded-full  lg:group-hover:opacity-30 transition duration-300">
@@ -479,17 +484,67 @@
         
         
     </div>
+    <!--STUD PAGE-->
+   <div class="bg-cover bg-bottom p-5 xl:p-10 " id="studPage">
+    <h1 class="text-center text-4xl tracking-widest xl:tracking-header md:text-5xl mb-5 xl:mb-5">KRATOS</h1>
+    <!-- xl:tracking-header -->
+   
+    <div class = "flex flex-col lg:flex-row items-center justify-between h-h-9/10 lg:min-h-full ">
+         <!-- Content on the left -->
+        <div class="self-start">
+            <h1 class="text-2xl md:text-3xl  lg:text-5xl  md:my-8 xl:mt-24">Stud Service</h1>
+            <p class=" text-left text-sm mb-5 sm:text-base md:text-lg lg:text-2xl xl:mb-10 sm:w-10/12 md:w-1/4 lg:w-2/5 ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Placeat corrupti modi eveniet similique fugit dolore deserunt quaerat omnis,
+                eum tempore nulla nostrum, velit labore? Omnis in possimus accusamus perferendis 
+                deleniti!
+            </p>
+            <button class=" text-sm sm:text-lg md:text-xl lg:text-2xl" id = "statsButton">Show More Info ></button>
+        </div>
+      
+        <ul class="flex items-end justify-around w-11/12 lg:w-96 flex-wrap md:mb-20  sm:flex-row lg:block text-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl ">
+            <li class="mx-3 my-2 md:mx-4 lg:my-10">1K <br><span class="text-base  md:text-lg whitespace-nowrap"> Special Offer</span></li>
+            <li class="mx-3 my-2 md:mx-4 lg:my-10">99% <span class="text-base md:text-lg whitespace-nowrap"><br>Sperm Fertility</span></li>
+            <li class="mx-3 my-2 md:mx-4 lg:my-10">LILAC<span class="text-base md:text-lg whitespace-nowrap"><br>Gene Trait</span></li>
+            <li class="mx-3 my-2 md:mx-4 lg:my-10 whitespace-nowrap">6 PUPS<span class="text-base  md:text-lg whitespace-nowrap"><br>Average Litter </span></li>
+        </ul>
+      
+        
+    </div>
+    <div class = "hidden" id = "statsContainer">
+        <div class = "fixed top-0 left-0 w-full h-full bg-black bg-opacity-70 z-50 flex justify-center items-center " >
+        <section class="w-11/12 lg:w-3/4 bg-white max-w-sm sm:max-w-lg relative text-primary-black px-4 py-16 rounded-md">
+            <div class = "absolute top-1 right-2">
+                <button type = "button" id = "statCloseBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-10 ">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                      </svg>
+                </button>
+            </div>
+           <div class = "text-3xl">
+            <p>Kratos:</p>
+            <p>Type: Mini Bulldog</p>
+            <p>Age: 1 year old</p>
+            <p>Height: 2ft</p>
+            <p>Color: Lilac</p>
+           </div>
+          </section>
+        </div>
+    </div>
+</div>
+
+
     <!--background section-->
-    <div class=" bg-lighter-white my-5 pb-10" id="about">
+    <div class=" bg-lighter-white pb-10" id="about">
         <!--CONTENT SECTION-->
         <div  class="flex flex-col items-center justify-center "> 
             <div class="flex flex-col-reverse md:flex-col items-center">
-            <div class="bg-stone-300 w-full flex justify-center mb-5 ">
-                <img class="w-full rounded-xl m-1 md:m-4 2xl:rounded-3xl xl:w-10/12" src="img/Kratos.webp" alt="">
+                 <div class="bg-stone-300 w-full flex justify-center mb-5 ">
+                    <img class="w-full rounded-xl m-1 md:m-4 2xl:rounded-3xl xl:w-10/12" src="img/Kratos.webp" alt="">
+                </div>
+                <div class="text-primary-black text-5xl py-5 md:pb-10 tracking-wider text-center">About Us</div>
             </div>
-        <div class="text-primary-black text-5xl my-10 tracking-wider text-center">About Us</div>
-    </div>
-            <div class="text-primary-black mx-5 mt-1 md:mt-12 sm:max-w-xl text-lg text-center md:max-w-3xl md:text-lg lg:max-w-4xl lg:text-2xl xl:max-w-7xl leading-loose  px-3 sm:px-9">
+            <div class="text-primary-black mx-5  sm:max-w-xl text-lg text-center md:max-w-3xl md:text-lg lg:max-w-4xl lg:text-2xl xl:max-w-7xl leading-loose px-6 sm:px-9">
                 <p class="leading-loose">
                     Welcome to our family-owned bulldog breeding business! We are based in Santa Ana, serving our community
                     with love since 2018. We specialize in raising high-quality bulldogs, ensuring each puppy's best care
@@ -539,7 +594,7 @@
 
    
 <!-- FAQ -->
-<div class="flex flex-col items-center bg-white text-primary-black pb-10">
+<div class="flex flex-col items-center bg-white text-primary-black pb-20">
 
     <p class="text-3xl">FAQ</p>
 
@@ -744,7 +799,7 @@
 
                 <p class="font-extrabold text-xl ">Menu</p>
 
-                <a href="#stud">
+                <a href="#studPage">
                     Stud Services</a>
                 <a href="#about">
                     About Us</a>

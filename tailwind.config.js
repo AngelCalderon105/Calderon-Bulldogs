@@ -12,12 +12,16 @@ module.exports = {
       },
       height:{
         'card-height': '37rem',
-        'lg-card-height':'34rem'
+        'lg-card-height':'34rem',
+        'h-9/10' : '90%',
       },
       width:{
         'card-width': '39rem',
         'm-card-width':'30rem',
         'lg-card-width':'35rem'
+      },
+      letterSpacing: {
+        'header' : '1.1rem',
       },
       colors: {
         'lighter-white': '#F8F9FA',
