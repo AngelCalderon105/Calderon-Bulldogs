@@ -270,4 +270,25 @@ closeGalleryBtn.forEach(function(btn, index) {
   })
 });
 
+// FAQ
 
+const tabs = document.querySelectorAll('.faqTab');
+
+tabs.forEach((tab, index) => {
+    const answer = tab.querySelector('.faqAnswer');
+    const upArrow = tab.querySelector('.arrow-up');
+    const downArrow = tab.querySelector('.arrow-down');
+
+    tab.addEventListener('click', () => {
+        if (answer.classList.contains('hidden')) {
+            answer.classList.remove('hidden');
+            upArrow.classList.remove('hidden');
+            downArrow.classList.add('hidden');
+        } 
+        else {
+            answer.classList.add('hidden');
+            upArrow.classList.add('hidden');
+            downArrow.classList.remove('hidden');
+        }
+    });
+});
