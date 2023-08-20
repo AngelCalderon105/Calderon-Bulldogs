@@ -170,7 +170,7 @@
         
         
         
-        <div class="flex flex-col items-center justify-center sm:mx-10 xl:mx-32 2xl:mx-72  gap-16 md:grid md:grid-cols-2 mb-14 " id="puppies-page">
+        <div class="flex flex-col items-center justify-center sm:mx-10 xl:mx-32 2xl:mx-72  gap-16 md:grid md:grid-cols-2 pb-14 " id="puppies-page">
             <div class=" group lg:relative max-w-screen-md flex flex-col justify-center m-auto">
                 <!-- Responsive Card with Overlay Text -->
                 <div class="relative  shadow-lg shadow-black rounded-xl overflow-hidden w-72 h-64 sm:w-80 sm:h-72 lg:w-m-card-width lg:h-96  ">
@@ -485,7 +485,7 @@
         
     </div>
     <!--STUD PAGE-->
-   <div class="bg-cover bg-bottom p-5 xl:p-10 " id="studPage">
+   <div class="bg-cover bg-center p-5 xl:p-10 xl:bg-contain" id="studPage">
     <h1 class="text-center text-4xl tracking-widest xl:tracking-header md:text-5xl mb-5 xl:mb-5">KRATOS</h1>
     <!-- xl:tracking-header -->
    
@@ -501,7 +501,7 @@
             </p>
             <button class=" text-sm sm:text-lg md:text-xl lg:text-2xl" id = "statsButton">Show More Info ></button>
         </div>
-      
+      <!--CONTENT ON THE RIGHT-->
         <ul class="flex items-end justify-around w-11/12 lg:w-96 flex-wrap md:mb-20  sm:flex-row lg:block text-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl ">
             <li class="mx-3 my-2 md:mx-4 lg:my-10">1K <br><span class="text-base  md:text-lg whitespace-nowrap"> Special Offer</span></li>
             <li class="mx-3 my-2 md:mx-4 lg:my-10">99% <span class="text-base md:text-lg whitespace-nowrap"><br>Sperm Fertility</span></li>
@@ -511,9 +511,9 @@
       
         
     </div>
-    <div class = "hidden" id = "statsContainer">
-        <div class = "fixed top-0 left-0 w-full h-full bg-black bg-opacity-70 z-50 flex justify-center items-center " >
-        <section class="w-11/12 lg:w-3/4 bg-white max-w-sm sm:max-w-lg relative text-primary-black px-4 py-16 rounded-md">
+    <div class = "" id = "statsContainer">
+        <div class = "fixed top-0 left-0 w-full h-full bg-black bg-opacity-70 z-50 flex justify-center items-center">
+        <section class="w-11/12 lg:w-3/4 bg-zinc-600 max-w-sm sm:max-w-lg relative text-gray-300 rounded-xl">
             <div class = "absolute top-1 right-2">
                 <button type = "button" id = "statCloseBtn">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-10 ">
@@ -521,12 +521,39 @@
                       </svg>
                 </button>
             </div>
-           <div class = "text-3xl">
-            <p>Kratos:</p>
-            <p>Type: Mini Bulldog</p>
-            <p>Age: 1 year old</p>
-            <p>Height: 2ft</p>
-            <p>Color: Lilac</p>
+           
+            <h1 class="text-center text-4xl pt-10">More Info</h1>
+            <div class="flex justify-around m-5 ">
+               <div class="text-center">
+                <h1 class="p-2 text-2xl">Physique</h1>
+            <ul class="p-2 text-center">
+              
+                <li class="p-2">Age: 1 year</li>
+                <li class="p-2">Weight: 52 lbs</li>
+                <li class="p-2">Height: 1ft 2in</li>
+                <li>Type: Mini </li>
+            </ul>
+        </div>
+        <div class="text-center">
+            <h1 class="pt-2 text-2xl">Health</h1>
+        <ul class="p-5 text-center">
+          
+            <li class="p-2">Age: 1 year</li>
+            <li class="p-2">Weight: 52 lbs</li>
+            <li class="p-2">Height: 1ft 2in</li>
+        </ul>
+    </div>
+    <div class="text-center">
+        <h1 class="pt-2 text-2xl">Past Litters</h1>
+    <ul class="p-5 text-center">
+      
+        <li class="p-2">Age: 1 year</li>
+        <li class="p-2">Weight: 52 lbs</li>
+        <li class="p-2">Height: 1ft 2in</li>
+    </ul>
+</div>
+           </div>
+       
            </div>
           </section>
         </div>

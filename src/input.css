@@ -7,19 +7,21 @@ b
   color:black;
 }
 #studPage {
-  background-image: url("img/test3 - Copy.png");
+  background-image: url("img/mobileStud.png");
   height: 100svh;
 }
 
  @media only screen and (min-width: 768px)  {
   #studPage {
-    background-image: url("img/test2.png");
+    background-image: url("img/mobileStud.png");
+    background-size:200%;
   }
 }
 
 @media only screen and (min-width: 1024px)  {
   #studPage {
-    background-image: url("img/test1.png");
+    background-image: url("img/mobileStud.png");
+    background-size:120%;
   }
 }
  
