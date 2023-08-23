@@ -33,8 +33,10 @@ module.exports = {
         'darkest-gray': '#495057',
         'lighter-black': '#343A40',
         'primary-black': '#212529',
-        'test1':'#444444',
-        'test2':'#393646',
+        'test1':'#c4bbbb',
+        'test2':'#707070',
+        'test3':'#8b8b8b',
+        'test4':'#bababa',
 
       },
   },
